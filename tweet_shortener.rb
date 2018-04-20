@@ -33,6 +33,7 @@ end
 
 def selective_tweet_shortener(array)
 
+  array.length > 140 ? 
 
 =begin
   array.each do |tweet|
