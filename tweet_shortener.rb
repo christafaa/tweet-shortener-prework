@@ -18,7 +18,7 @@ def word_substituter(string)
   replacements = dictionary
   result = []
   string.split(' ').each do |word|
-    if replacements[word]
+    if replacements[word.lowercase]
       result << replacements[word]
     else
       result << word
