@@ -22,7 +22,7 @@ def word_substituter(string)
       result << replacements[word]
     else
       result << word
-
+    end
   end
 
 end
