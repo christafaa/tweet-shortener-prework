@@ -36,7 +36,7 @@ def selective_tweet_shortener(array)
   if array.length > 140
     puts word_substituter(array)
   else
-    puts tweet
+    puts array
   end
 
 
