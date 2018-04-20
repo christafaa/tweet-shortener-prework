@@ -19,9 +19,9 @@ def word_substituter(string)
   result = []
   string.split(' ').each do |word|
     if replacements[word]
-      result += replacements[word]
+      result << replacements[word]
     else
-      result += word
+      result << word
 
   end
 
