@@ -16,6 +16,8 @@ end
 
 def word_substituter(string)
   replacements = dictionary
+  result = ""
+  string.split(' ').each do |word|
 
 
 
