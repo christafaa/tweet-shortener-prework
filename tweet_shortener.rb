@@ -1,4 +1,4 @@
-def word_substituter
+def dictionary
   dictionary = {
     "hello" => 'hi',
     "to" => '2',
@@ -11,7 +11,12 @@ def word_substituter
     "at" => "@",
     "and" => "&"
   }
+end
 
-  
+
+def word_substituter
+
+
+
 
 end
