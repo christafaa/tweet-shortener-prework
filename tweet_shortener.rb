@@ -1,8 +1,8 @@
 def word_substituter
   dictionary = {
-    "hello" => 'hi'
-    "to, two, too" become '2'
-    "for, four" become '4'
+    "hello" => 'hi',
+    "to, two, too" => '2'
+    "for, four" => '4'
     'be' => 'b'
     'you' => 'u'
     "at" => "@"
