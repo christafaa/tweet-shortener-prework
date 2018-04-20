@@ -15,7 +15,7 @@ end
 
 
 def word_substituter(string)
-  
+  replacements = dictionary
 
 
 
