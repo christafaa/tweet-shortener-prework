@@ -20,6 +20,8 @@ def word_substituter(string)
   string.split(' ').each do |word|
     if replacements[word]
       result += replacements[word]
+    else
+      result += word
 
   end
 
