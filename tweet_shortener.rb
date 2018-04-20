@@ -24,5 +24,5 @@ def word_substituter(string)
       result << word
     end
   end
-
+  result.join(' ')
 end
